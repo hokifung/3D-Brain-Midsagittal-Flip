@@ -12,7 +12,7 @@ Install the following dependencies for Python3
 pip install tqdm, nibabel
 ```
 
-## Usage (Python3)
+## Usage 
 The python script provides a CLI (Command Line Interface) usage for this program. To execute it:
 ```
 python flip.py <input_folder> <output_folder>
