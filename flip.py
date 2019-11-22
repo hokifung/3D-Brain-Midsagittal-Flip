@@ -9,7 +9,7 @@ from nibabel.testing import data_path
 ##
 # Support Filetype / Images
 ##
-supported_extensions = ('nii', 'img', 'gii', 'mnc', 'mgh')
+supported_extensions = ('nii', 'img', 'gii', 'mnc', 'mgh', 'REC')
 
 ##
 # Mirror Voxel Data by Defined Axis
