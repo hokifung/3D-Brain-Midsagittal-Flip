@@ -9,7 +9,7 @@ from nibabel.testing import data_path
 ##
 # Mirror Voxel Data by Defined Axis
 ##
-def MirrorVoxels(axis_value, original_data):
+def MirrorVoxels(original_data):
     for slice_number in range(0, int(original_data.shape[0] / 2)):
             # Copy Data from Memory (Incase Numpy Uses Shallow Copy)
             temporary_slice = copy.deepcopy(original_data[slice_number, :, :])
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         header = main.header
         main_data = main.get_fdata() 
         edited_data = copy.deepcopy(main_data)
-        MirrorVoxels(26, edited_data) 
+        MirrorVoxels(edited_data) 
         mirror = nib.Nifti1Image(edited_data, main.affine, main.header)
         nib.save(mirror, output_name)
  
