@@ -7,6 +7,11 @@ from nibabel.testing import data_path
 
 
 ##
+# Support Filetype / Images
+##
+supported_extensions = ('nii', 'img')
+
+##
 # Mirror Voxel Data by Defined Axis
 ##
 def MirrorVoxels(original_data):
@@ -33,7 +38,7 @@ if __name__ == "__main__":
     # Iterate Through Filelist
     for nfile in tqdm(range(len(files))):
         ## Sanity Check
-        if ".nii" not in files[nfile]:
+        if files[nfile].lower().endswith(supported_extensions) == False:
             continue
 
         output_name = output_path + "/flipped_" + files[nfile]
