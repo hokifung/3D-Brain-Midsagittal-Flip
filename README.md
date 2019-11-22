@@ -15,7 +15,7 @@ The general idea of the program is to flip the left and right sides of an 3D ima
     
 **2. It supports common medical and neuroimaging file formats.**
     
-* Some examples are ANALYZE, GIFTI, NIfTI1, NIfTI2, CIFTI-2, MINC1, MINC2, AFNI BRIK/HEAD, MGH and ECAT.
+* Some examples are ANALYZE, GIFTI, NIfTI1, NIfTI2, MINC1, MINC2, and MGH.
 
 **3. It works well with different types of (spatially) normalized brain images.**
 
