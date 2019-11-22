@@ -39,10 +39,21 @@ pip install tqdm, nibabel
 
 ## Usage
 
+The execution is designed to be as straight-forward as possible.
+
+1. Create an `<input folder>` to store all the images waiting to be processed.
+2. Create an `<output folder>` to store the processed images.
+3. Run the python script using the following command line.
+4. The program will process all the images in the `<input folder>` and store the flipped images in the `<outout folder>`.
+    
 The python script provides a CLI (Command Line Interface) usage for this program. To execute it:
 ```
 python flip.py <input_folder> <output_folder>
 ```
+
+## Reminder
+
+1. Please make sure the input images are normalized to a standard space (for brain images) or make sure the plane-to-be-flipped sits on the midpoint of the chosen axis. 
 
 ## Questions, Issues, and Feedback
 
