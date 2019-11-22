@@ -3,7 +3,7 @@
 ## Background
 Originally developed for a stroke research project, this program was used to flip 3D fMRI contrast images with lesions on the left side of the brain along the midline, so all lesions will be on the same side (right as the ipsilesional side in this case) for further analysis. 
 
-The general idea of the program is to flip the left and right sides of an 3D image along the mid-plane on the x-axis. It was written in a way that can be directly applied in many scenarios, to brain or non-brain data. This support extends to batch processing as well as time series based (4D) data.
+The general idea of the program is to flip the left and right sides of an 3D image along the mid-plane on the x-axis. It was written in a way that can be directly applied in many scenarios, to brain and non-brain data. This support extends to batch processing as well as time series based (4D) data.
 
 ## Advantage and Extended Usage
 
