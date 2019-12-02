@@ -1,5 +1,7 @@
 # 3D-Brain-Midsagittal-Flip
 
+![Example](flip_demo.gif)
+
 ## Background
 Originally developed for a stroke research project, this program was used to flip 3D fMRI contrast images with lesions on the left side of the brain along the midline, so all lesions will be on the same side (right as the ipsilesional side in this case) for further analysis. 
 
