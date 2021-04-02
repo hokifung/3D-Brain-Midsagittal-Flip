@@ -10,15 +10,19 @@ The general idea of the function is to flip the left and right sides of an 3D im
 
 ## For Fellow Neuroscience Researchers 
 
-**1. It is fast and easy to use.**
+**1. It is easy to use.**
 
-* It runs entirely on Python and its dependencies. No installation of other software such as FSL, SPM, and ANTS is required.
-    
-**2. It supports common medical and neuroimaging file formats.**
+* Runs entirely on Python and its dependencies. No installation of other software such as FSL, SPM, and ANTS is required.
+
+**2. It supports batch processing.**
+
+* Flips all images in a folder with just one line of code.
+
+**3. It supports common medical and neuroimaging file formats.**
     
 * ANALYZE, GIFTI, NIfTI1, NIfTI2, CIFTI-2, MINC1, MINC2, MGH, and Philips PAR/REC.
 
-**3. It works well with different types of (spatially) normalized brain images.**
+**4. It works well with different types of (spatially) normalized brain images.**
 
 * T1 images, T2 images, t-maps, masks and more.
 
@@ -40,9 +44,9 @@ The execution is designed to be as straight-forward as possible. It will process
 
 The python script provides a CLI (Command Line Interface) usage for this program. To execute it:
 ```
-python flip.py <input_folder> <output_folder>
+python3 flip.py <input_folder> <output_folder>
 ```
-<sup>*</sup>Please make sure the input images are normalized to a standard space (for brain images) or make sure the plane-to-be-flipped sits on the midpoint of the chosen axis.
+<sup>*</sup> Please make sure the input images are normalized to a standard space (for brain images) or make sure the plane-to-be-flipped sits on the midpoint of the chosen axis.
 
 
 ## Questions, Issues, and Feedback
