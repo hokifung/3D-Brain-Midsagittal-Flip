@@ -8,7 +8,7 @@ Originally developed for a stroke research project, this simple python script wa
 ## Generalization
 The general idea of the function is to flip the left and right sides of an 3D image along the mid-plane on the x-axis. It was written in a way that can be directly applied to non-brain 3D images as well. 
 
-## For fellow neuroscience researchers 
+## For Fellow Neuroscience Researchers 
 
 **1. It is fast and easy to use.**
 
