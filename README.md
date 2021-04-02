@@ -5,11 +5,10 @@
 ## Background
 Originally developed for a stroke research project, this simple python script was used to flip 3D fMRI contrast images with lesions on the left side of the brain along the midline, so all lesions will be on the same side (right as the ipsilesional side in this case) for further analysis. 
 
+## Generalization
 The general idea of the function is to flip the left and right sides of an 3D image along the mid-plane on the x-axis. It was written in a way that can be directly applied to non-brain 3D images as well. 
 
-## Advantage and Extended Usage
-
-### For fellow neuroscience researchers 
+## For fellow neuroscience researchers 
 
 **1. It is fast and easy to use.**
 
@@ -33,20 +32,16 @@ pip3 install tqdm, nibabel
 
 ## Usage
 
-The execution is designed to be as straight-forward as possible.
+The execution is designed to be as straight-forward as possible. It will process all the images in the `<input folder>` and store the flipped images in the `<outout folder>`.
 
 1. Create an `<input folder>` to store all normalized<sup>*</sup> images waiting to be processed.
 2. Create an `<output folder>` to store the processed images.
 3. Run the python script using the following command line.
-4. The program will process all the images in the `<input folder>` and store the flipped images in the `<outout folder>`.
-    
+
 The python script provides a CLI (Command Line Interface) usage for this program. To execute it:
 ```
 python flip.py <input_folder> <output_folder>
 ```
-
-## Reminder
-
 <sup>*</sup>Please make sure the input images are normalized to a standard space (for brain images) or make sure the plane-to-be-flipped sits on the midpoint of the chosen axis.
 
 
